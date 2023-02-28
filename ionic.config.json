@@ -1,0 +1,7 @@
+{
+  "name": "korioo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
