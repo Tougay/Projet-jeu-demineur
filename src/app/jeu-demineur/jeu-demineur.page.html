@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Démineur
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="board">
+    <div *ngFor="let row of board; let i = index" class="row">
+      <button ion-button *ngFor="let cell of row; let j = index" [class]="getCellClass(cell)" (click)="handleCellClick(i, j)">
+        {{ getCellContent(cell) }}
+      </button>
+    </div>
+  </div>
+</ion-content>
+

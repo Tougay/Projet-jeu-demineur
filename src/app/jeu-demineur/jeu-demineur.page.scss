@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.unopened {
+  background-color: rgb(255, 91, 2);
+}
+
+.opened {
+  background-color: rgb(0, 0, 0);
+}
+
+.bomb {
+  background-color: red;
+}
+
+.flagged {
+  background-color: yellow;
+}

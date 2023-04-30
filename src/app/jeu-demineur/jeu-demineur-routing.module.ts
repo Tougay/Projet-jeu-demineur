@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
+import { JeuDemineurPage } from './jeu-demineur.page';
 
 const routes: Routes = [
-
+  {
+    path: '',
+    component: JeuDemineurPage
+  }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FolderPageRoutingModule {}
+export class JeuDemineurPageRoutingModule {}
